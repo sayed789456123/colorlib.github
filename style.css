@@ -3,12 +3,18 @@
 body{
 	background:skyblue;
 }
-/*wrapper*/
-#wrapper{
-	margin:20px auto;
+/*Full width*/
+.main_rapp{
+	width:100%;
+}
+.rapp{
 	width:1200px;
+	margin:0 auto;
 }
 /*Header section Start*/
+.header_bg{
+	background:#333;
+}
 #header{
 	padding:30px;
 }
@@ -58,13 +64,16 @@ body{
 }
 /*Header section End*/
 /*Frist section Start*/
-#first_section{
-	background:red;
+.fst_section{
 	background-image:url('img/section1bg.webp');
 	background-repeat:no-repeat;
 	background-size:cover;
+}
+#first_section{
+
 	padding:20px;
 	margin-top:-60px;
+	width:100%;
 }
 #first_section h3{
 	font-size:70px;
@@ -92,6 +101,9 @@ body{
 }
 /*Frist section End*/
 /*Secound section Start*/
+.sec_section{
+	background:white;
+}
 #secound_section{
 	background:white;
 }
@@ -149,6 +161,9 @@ body{
     color:#727272;
 }
 /*Third section Start*/
+.thi_sec{
+	background:#1F1F1F;
+}
 #third_section{
 	background:#1F1F1F;
 	overflow:hidden;
@@ -210,6 +225,9 @@ body{
 }
 /*Third section End*/
 /*Forth section Start*/
+.four_sec{
+	background:white;
+}
 #forth_section{
 	background:white;
 }
@@ -242,6 +260,9 @@ body{
 }
 /*Forth section End*/
 /*Five section Start*/
+.five_sec{
+	background:white;
+}
 #five_section{
 	background:white;
 	overflow:hidden;
@@ -284,6 +305,9 @@ body{
 }
 /*Five section End*/
 /*Sixth section Start*/
+.six_sec{
+	background:white;
+}
 #sixth_section{
 	background:white;
 	overflow:hidden;
@@ -330,8 +354,14 @@ body{
 }
 /*Sixth section End*/
 /*Seventh section Start*/
-#seventh_section{
+.seven_sec{
+	background:white;
 	background-image:url('img/banner.png.webp');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#seventh_section{
+	width:100%;
 	background-repeat:no-repeat;
 	background-size:cover;
 	height:600px;
@@ -363,6 +393,9 @@ body{
 }
 /*Seventh section end*/
 /*Eighth section Start*/
+.eight_sec{
+	background:white;
+}
 #eight_section{
 	background:white;
 	overflow:hidden;
@@ -423,7 +456,20 @@ body{
 	border:1px solid #615cfd;	
 }
 /*Eighth section End*/
+/*Header Down start*/
+.down_head{
+	background:#363636;
+}
+#header_bottom{
+	padding:30px;
+	background:#363636;
+	overflow:hidden;
+}
+/*Header Down End*/
 /*Footer Start*/
+.foot_bg{
+	background:#363636;
+}
 #footer{
 	background:#363636;
 	overflow:hidden;
@@ -448,8 +494,3 @@ body{
 	margin:0 10px;
 }
 /*Footer End*/
-#header_bottom{
-	padding:30px;
-	background:#363636;
-	overflow:hidden;
-}
