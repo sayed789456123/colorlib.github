@@ -7,10 +7,7 @@ body{
 .main_rapp{
 	width:100%;
 }
-.rapp{
-	width:1200px;
-	margin:0 auto;
-}
+
 /*Header section Start*/
 .header_bg{
 	background:#333;
@@ -70,10 +67,8 @@ body{
 	background-size:cover;
 }
 #first_section{
-
 	padding:20px;
 	margin-top:-60px;
-	width:100%;
 }
 #first_section h3{
 	font-size:70px;
@@ -164,20 +159,23 @@ body{
 .thi_sec{
 	background:#1F1F1F;
 }
+.rapper{
+	width:100%;
+}
 #third_section{
 	background:#1F1F1F;
 	overflow:hidden;
 }
 #third_section_left{
-	width:600px;
+	width:50%;
 	float:left;
 }
 #third_section_left img{
-	width:600px;
+	width:100%;
 	vertical-align:middle;
 }
 #third_section_right{
-	width:600px;
+	width:50%;
 	float:left;
 	background:#1F1F1F;
 }
@@ -223,6 +221,44 @@ body{
 	border:1px solid #615CFD;
 	color:#615CFD;
 }
+#skill_bar{
+	width:80%;
+	margin:10px;
+	margin-bottom:50px;
+}
+#skill_bg{
+	background:#ddd;
+	width:100%;
+	height:20px;
+}
+#skill_font{
+	background:red;
+	width:90%;
+	height:20px;
+	margin-top:-20px;
+	text-align:right;
+}
+#skill_fontcss{
+	background:orange;
+	width:95%;
+	height:20px;
+	margin-top:-20px;
+	text-align:right;
+}
+#skill_fontjvs{
+	background:green;
+	width:70%;
+	height:20px;
+	margin-top:-20px;
+	text-align:right;
+}
+#skill_fontwp{
+	background:blue;
+	width:98%;
+	height:20px;
+	margin-top:-20px;
+	text-align:right;
+}
 /*Third section End*/
 /*Forth section Start*/
 .four_sec{
@@ -251,17 +287,19 @@ body{
 	line-height:28px;
 	margin:0 auto;
 }
-#forth_section_bottom{}
-#forth_section_bottom a{}
-#forth_section_bottom img{
+.forth_section_bottom{}
+.forth_section_bottom a{}
+.forth_section_bottom img{
 	width:377px;
 	margin:10px;
-	height:360px;
 }
 /*Forth section End*/
 /*Five section Start*/
 .five_sec{
 	background:white;
+}
+.rappart{
+	width:100%;
 }
 #five_section{
 	background:white;
@@ -269,7 +307,7 @@ body{
 	padding:50px;
 }
 #five_section_left{
-	width:400px;
+	width:40%;
 	float:left;
 	margin-top:140px;
 }
@@ -295,12 +333,12 @@ body{
 	font-style:normal;
 }
 #five_section_right{
-	width:550px;
+	width:60%;
 	float:left;
 }
 #five_section_right img{
 	border-radius:20px;
-	width:670px;
+	width:100%;
 	margin-left:130px;
 }
 /*Five section End*/
@@ -362,8 +400,6 @@ body{
 }
 #seventh_section{
 	width:100%;
-	background-repeat:no-repeat;
-	background-size:cover;
 	height:600px;
 	text-align:center;
 }
@@ -456,6 +492,23 @@ body{
 	border:1px solid #615cfd;	
 }
 /*Eighth section End*/
+/*Go To Top*/
+#gototop{
+	position:fixed;
+	right:5px;
+	bottom:200px;
+}
+#gototop a{
+	background:yellow;
+	padding:10px;
+	border:1px solid #615cfd;
+	border-radius:20px;
+	text-decoration:none;
+}
+#gototop a:hover{
+	background:none;
+}
+/*Go To Top*/
 /*Header Down start*/
 .down_head{
 	background:#363636;
