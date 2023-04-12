@@ -223,8 +223,11 @@ body{
 }
 #skill_bar{
 	width:80%;
-	margin:10px;
+	margin-left:80px;
 	margin-bottom:50px;
+	margin-top:50px;
+	font-family: "Muli", sans-serif;
+	color:white;
 }
 #skill_bg{
 	background:#ddd;
